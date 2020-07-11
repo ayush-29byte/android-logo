@@ -1,0 +1,126 @@
+body{
+    background-color: black;
+}
+
+.A{
+    position: absolute;
+    top: 200px;
+    left: 125px;
+    height: 45px;
+    width: 90px;
+    border-radius: 0px 0px 90px 90px;
+    transform: rotate(180deg);
+    background: #00FF00;
+}
+.B{
+    position: absolute;
+    top: 250px;
+    left: 125px;
+    height: 89px;
+    width: 90px;
+    border-radius: 5px;
+    background-color: #00FF00;
+}
+.C{
+    position: absolute;
+    top: 250px;
+    left: 90px;
+    height: 70px;
+    width: 25px;
+    border-radius: 15px;
+    background-color: #00FF00;
+}
+.D{
+    position: absolute;
+    top: 250px;
+    left: 224px;
+    height: 70px;
+    width: 25px;
+    border-radius: 15px;
+    background-color: #00FF00;
+}
+.E{
+    position: absolute;
+    top: 250px;
+    left: 125px;
+    height: 89px;
+    width: 89px;
+    border-radius: 15px;
+    background-color: #00FF00;
+}
+.G{
+    position: absolute;
+    top: 338px;
+    left: 138px;
+    height: 45px;
+    width: 25px;
+    border-radius: 0 0 15px 15px;
+    background-color: #00FF00;
+}
+.H{
+    position: absolute;
+    top: 338px;
+    left: 178px;
+    height: 45px;
+    width: 25px;
+    border-radius: 0 0 15px 15px;
+    background-color: #00FF00;
+}
+.E{
+    position: absolute;
+    top: 220px;
+    left: 150px;
+    height: 9px;
+    width: 9px;
+    border-radius: 10px;
+    background: black;
+}
+.F{
+    position: absolute;
+    top: 220px;
+    left: 185px;
+    height: 9px;
+    width: 9px;
+    border-radius: 10px;
+    background: black;
+}
+.I{
+    position: absolute;
+    top: 184px;
+    left: 140px;
+    height: 30px;
+    width: 5px;
+    border-radius: 10px 10px 0 0;
+    transform: rotate(-32deg);
+    background-color: #00FF00;
+}
+.J{
+    position: absolute;
+    top: 183px;
+    left: 200px;
+    height: 27px;
+    width: 5px;
+    border-radius: 10px 10px 0 0;
+    transform: rotate(32deg);
+    background-color: #00FF00;
+}
+.K{
+    position: absolute;
+    top: 150px;
+    left: 45px;
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+    border: 3px solid #00FF00;
+    border-top: 3px dotted #00FF00;
+    border-bottom: 3px dotted #00FF00;
+    animation: animate 0.7s linear infinite;
+}
+@keyframes animate{
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
